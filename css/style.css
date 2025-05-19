@@ -1,0 +1,149 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.back-home {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 0.9em;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+.info-section {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.info-section:last-child {
+  border-bottom: none;
+}
+
+#symptoms-list {
+  list-style: none;
+  padding: 0;
+}
+
+#symptoms-list li {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#symptoms-list li:hover {
+  background-color: #e9ecef;
+}
+
+#symptom-description {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e6f7ff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+.resource-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.resource-card h3 {
+  margin-top: 0;
+  color: #28a745; /* A green color for health resources */
+}
+
+.services {
+  color: #555;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.contact {
+  color: #777;
+  margin-bottom: 3px;
+}
+
+.myth-fact-container {
+  display: flex;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.myth,
+.fact {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.myth {
+  background-color: #fdecea;
+  color: #d9534f; /* Reddish color for myths */
+}
+
+.fact {
+  background-color: #d4edda;
+  color: #155724; /* Greenish color for facts */
+}
+
+.myth-title,
+.fact-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
