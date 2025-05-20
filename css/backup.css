@@ -1,0 +1,44 @@
+/* --- Header Styling --- */
+header {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+  display: flex; /* For alignment */
+  flex-direction: row; /* Horizontal */
+  justify-content: center; /* Center title */
+  align-items: center; /* Vertical */
+  position: relative; /* For back button */
+}
+
+.back-home {
+  /* Back to home link style */
+  color: white;
+  text-decoration: none; /* Remove underline */
+  margin-right: auto; /* Push link to the left */
+  font-size: 0.9em;
+  position: absolute; /* Position relative to header */
+  left: 20px; /* From left edge of header */
+}
+
+/* --- Section Styling --- */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Stack label above input */
+}
+
+/* include */
+
+section#bmi-calculator,
+section#disease-selection {
+    text-align: center;
+}

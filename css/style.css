@@ -1,40 +1,50 @@
+/* --- Base Styles --- */
 body {
-  font-family: sans-serif;
-  line-height: 1.6;
+  font-family: sans-serif; /* Readability */
+  line-height: 1.6; /* Text spacing */
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f4f4f4; /* Light gray */
+  color: #333; /* Dark gray */
 }
 
-.back-home {
-  color: white;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: 0.9em;
-}
-
-.back-home:hover {
-  text-decoration: underline;
-}
-
+/* --- Header Styling --- */
 header {
-  background-color: #007bff;
-  color: white;
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
   padding: 20px;
   text-align: center;
+  position: relative; /* For back button */
 }
 
 header h1 {
   margin-bottom: 5px;
 }
 
+.back-home {
+  /* Back to home link style */
+  color: white;
+  text-decoration: none; /* Remove underline */
+  margin-right: auto; /* Push link to the left */
+  font-size: 1.2rem;
+}
+
+.back-home:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* --- Section Styling --- */
 section {
   padding: 20px;
   margin-bottom: 20px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+section#bmi-calculator,
+section#disease-selection {
+  text-align: center;
 }
 
 h2,
@@ -43,49 +53,128 @@ h3 {
   margin-top: 0;
 }
 
+/* --- Input Group (for BMI calculator) --- */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Stack label above input */
+  margin: 0px auto 15px auto;
+  width: 15%;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* --- Button (for BMI calculator and disease selection) --- */
+button {
+  background-color: #28a745; /* Green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease; /* Smooth hover */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* --- BMI Result Display --- */
+#bmi-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d4edda; /* Light green for positive feedback */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+}
+
+#bmi-result h3 {
+  margin-top: 0;
+  color: #155724;
+}
+
+/* --- Disease Links Section --- */
+.disease-links {
+  display: flex; /* Arrange buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Center buttons */
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.disease-button {
+  display: inline-block; /* Make them behave like inline blocks */
+  background-color: #007bff; /* Blue */
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Smooth hover */
+  font-size: 1em;
+  border: none; /* Remove default button border */
+  cursor: pointer;
+}
+
+.disease-button:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+/* --- Info Section (for disease pages) --- */
 .info-section {
   margin-bottom: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee; /* Separator line */
 }
 
 .info-section:last-child {
-  border-bottom: none;
+  border-bottom: none; /* No border for the last info block */
 }
 
+/* --- Symptoms List (for disease pages) --- */
 #symptoms-list {
-  list-style: none;
-  padding: 0;
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Reset default padding */
 }
 
 #symptoms-list li {
-  cursor: pointer;
+  cursor: pointer; /* Indicates clickable */
   padding: 8px 12px;
   margin-bottom: 5px;
-  background-color: #f9f9f9;
-  border-left: 5px solid #007bff;
+  background-color: #f9f9f9; /* Light gray */
+  border-left: 5px solid #007bff; /* Blue highlight bar */
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth hover */
 }
 
 #symptoms-list li:hover {
-  background-color: #e9ecef;
+  background-color: #e9ecef; /* Slightly darker gray on hover */
 }
 
 #symptom-description {
+  /* Area where symptom description appears */
   margin-top: 15px;
   padding: 10px;
-  background-color: #e6f7ff;
-  border: 1px solid #007bff;
+  background-color: #e6f7ff; /* Light blue */
+  border: 1px solid #007bff; /* Blue border */
   border-radius: 4px;
 }
 
 .hidden {
-  display: none;
+  display: none; /* Hides elements */
 }
 
+/* --- Resource Card (for local healthcare centers) --- */
 .resource-card {
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; /* Light gray border */
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 4px;
@@ -93,7 +182,7 @@ h3 {
 
 .resource-card h3 {
   margin-top: 0;
-  color: #28a745; /* A green color for health resources */
+  color: #28a745; /* Green */
 }
 
 .services {
@@ -107,29 +196,30 @@ h3 {
   margin-bottom: 3px;
 }
 
+/* --- Myth vs. Fact Styling --- */
 .myth-fact-container {
-  display: flex;
+  display: flex; /* Arrange myth and fact side-by-side */
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc; /* Container border */
   border-radius: 4px;
-  overflow: hidden;
+  overflow: hidden; /* Ensures content stays within rounded corners */
 }
 
 .myth,
 .fact {
-  flex: 1;
+  flex: 1; /* Each takes equal width */
   padding: 10px;
   text-align: center;
 }
 
 .myth {
-  background-color: #fdecea;
-  color: #d9534f; /* Reddish color for myths */
+  background-color: #fdecea; /* Light red */
+  color: #d9534f; /* Red text */
 }
 
 .fact {
-  background-color: #d4edda;
-  color: #155724; /* Greenish color for facts */
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Green text */
 }
 
 .myth-title,
@@ -138,12 +228,13 @@ h3 {
   margin-bottom: 5px;
 }
 
+/* --- Footer Styling --- */
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #333;
+  background-color: #333; /* Dark background */
   color: white;
-  position: sticky;
+  position: sticky; /* Keeps footer at bottom of viewport if content is short */
   bottom: 0;
   width: 100%;
 }
