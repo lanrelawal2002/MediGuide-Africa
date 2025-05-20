@@ -68,7 +68,6 @@ My approach to building MediGuide Africa was driven by a desire to create a prac
 4.  **Code Quality & Readability:** I ensured that I wrote clean, well-organized, and commented code which is critical for collaborative environments. My aim was to write code that is not just functional, but also understandable and maintainable by others.
 5.  **User Experience (UX):** From the intuitive navigation to the clear layout and color scheme, I prioritized creating a user-friendly interface. The distinction between "Myths" and "Facts" with clear color coding was designed to prevent misinformation effectively.
 
-This project allowed me to reinforce my front-end development skills and apply them to a domain with significant social impact, which is a core motivator for me as I aspire to become a software engineer.
 
 ## 6. Outcomes & Impact
 
@@ -78,6 +77,9 @@ MediGuide Africa successfully delivers on its core objectives:
 * **Demonstrates Foundational Software Engineering Skills:** Effectively showcases proficiency in HTML for structure, CSS for styling, and JavaScript for client-side interactivity and data processing.
 * **Highlights Problem-Solving Capability:** The design and implementation directly address the challenge of information accessibility and resource guidance.
 * **Reflects Impact-Oriented Development:** The project’s focus on healthcare awareness and accessibility helps to create real value and positive change through technology.
+
+This project allowed me to reinforce my front-end development skills and apply them to a domain with significant social impact, which is a core motivator for me as I aspire to become a software engineer.
+
 
 ## 7. Future Enhancements & Recommendations for Improvement
 
