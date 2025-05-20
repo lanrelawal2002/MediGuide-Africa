@@ -19,9 +19,9 @@
 
 ## 1. Background
 
-In many regions across Africa, access to clear, reliable health information and a directory of local healthcare services remains a significant challenge. Misinformation, lack of awareness, and difficulty in locating appropriate care centers contribute to poor health outcomes. SAND Technologies is at the forefront of leveraging AI and data to solve grand challenges, including revolutionizing healthcare delivery, as evidenced by their work with the Rural Health Operating System (RHOS) serving over 1 million patients.
+In many regions across Africa, access to clear, reliable health information and a directory of local healthcare services remains a significant challenge. Misinformation, lack of awareness, and difficulty in locating appropriate care centers contribute to poor health outcomes. 
 
-Inspired by SAND Technologies' mission to bridge the gap between current reality and a digital future through meaningful AI and data solutions, this "MediGuide Africa" project aims to contribute to improving health literacy and access to basic health resources. It serves as a proof-of-concept for how straightforward digital tools can empower individuals with crucial health knowledge and guide them towards available local support.
+This "MediGuide Africa" project aims to contribute to improving health literacy and access to basic health resources. It serves as a proof-of-concept for how straightforward digital tools can empower individuals with crucial health knowledge and guide them towards available local support.
 
 ## 2. About the Project
 
@@ -56,9 +56,9 @@ This project demonstrates my foundational skills in front-end software engineeri
 
 ## 5. My Thought Process & Problem-Solving Approach
 
-My approach to building MediGuide Africa was driven by a desire to create a practical, impactful application that aligns with SAND Technologies' emphasis on "meaningful AI" and solving "real business problems."
+My approach to building MediGuide Africa was driven by a desire to create a practical, impactful application that improves health literacy and access to basic health resources
 
-1.  **Problem Identification & Alignment:** I started by identifying a tangible problem: the need for accessible, reliable health information and local resource guidance in communities. This directly resonates with SAND Technologies' work in digital healthcare transformation and their goal to empower individuals.
+1.  **Problem Identification & Alignment:** I started by identifying a tangible problem: the need for accessible, reliable health information and local resource guidance in communities.
 2.  **Core Functionality Design:**
     * **BMI Calculator:** This was chosen to demonstrate basic data handling (user input, numerical processing) and immediate value feedback. I focused on robust input validation to ensure reliable calculations.
     * **Disease Information:** Selecting Malaria, Diabetes, and Hypertension provided a strong basis for showcasing a broad range of common health issues in the African context, reflecting their relevance to community health.
