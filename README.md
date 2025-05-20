@@ -46,7 +46,7 @@ This project demonstrates my foundational skills in front-end software engineeri
 * **Simulated Local Healthcare Resource Directory:**
     * For each disease, a mock-up list of local healthcare centers is provided, including their name, simulated services, and contact information (e.g., Address, Phone Number). This highlights the potential for connecting users to real-world support.
 * **Intuitive Navigation:** Simple "Back to Home" links on disease pages ensure seamless user experience.
-* **Clean UI:** Designed with CSS to be visually appealing.
+* **Clean and Responsive UI:**  Designed with CSS to be visually appealing and accessible across different screen sizes.
 
 ## 4. Technologies Used
 
