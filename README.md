@@ -32,7 +32,7 @@ This project demonstrates my foundational skills in front-end software engineeri
 ## 3. Features
 
 * **Interactive Landing Page:**
-    * **Body Mass Index (BMI) Calculator:** Allows users to input their height and weight to calculate their BMI, providing an instant numerical result and a basic interpretation (Underweight, Healthy, Overweight, Obese). This showcases basic data input handling and numerical processing.
+    * **Body Mass Index (BMI) Calculator:** Allows users to input their height and weight to calculate their BMI, providing an instant numerical result and a basic interpretation (Underweight, Healthy, Overweight, Obese).
     * **Disease Selection Navigation:** Clearly guides users to detailed pages for specific diseases (Malaria, Diabetes, Hypertension).
 * **Detailed Disease Information Pages (Malaria, Diabetes, Hypertension):**
     * **"What is [Disease]?"** Concise, accessible explanations.
@@ -60,15 +60,15 @@ My approach to building MediGuide Africa was driven by a desire to create a prac
 
 1.  **Problem Identification & Alignment:** I started by identifying a tangible problem: the need for accessible, reliable health information and local resource guidance in communities.
 2.  **Core Functionality Design:**
-    * **BMI Calculator:** This was chosen to demonstrate basic data handling (user input, numerical processing) and immediate value feedback. I focused on robust input validation to ensure reliable calculations.
-    * **Disease Information:** Selecting Malaria, Diabetes, and Hypertension provided a strong basis for showcasing a broad range of common health issues in the African context, reflecting their relevance to community health.
-    * **Interactive Symptoms:** Instead of static lists, I opted for a clickable symptom display. This enhances user engagement and allows information to be consumed more efficiently, reflecting a user-centric design approach.
+    * **BMI Calculator:** Is responsible for accepting and handling user input and to provide immediate feedback. I focused on robust input validation to ensure reliable calculations.
+    * **Disease Information:** This section focused on Malaria, Diabetes, and Hypertension which are common health issues in the African context.
+    * **Interactive Symptoms:** Instead of static lists, I opted for a clickable symptom display. This enhances user engagement and allows information to be consumed more efficiently.
     * **Local Resources:** Even as a simulated directory, this feature highlights the potential for practical application – connecting knowledge with actionable steps for care.
-3.  **Architectural Choices:** I opted for a multi-page HTML structure rather than a Single Page Application (SPA) framework for this graduate-level project. This choice allows for clear demonstration of HTML structuring, inter-page navigation, and separation of concerns while keeping the project scope manageable and easy to review. The integration of JavaScript for specific interactive elements (like BMI calculation and symptom descriptions) within this multi-page structure showcases targeted functionality enhancement.
-4.  **Code Quality & Readability:** A significant focus was placed on writing clean, well-organized, and thoroughly commented code (in HTML, CSS, and JavaScript). This was a conscious decision to make my thought process transparent and demonstrate adherence to professional coding standards, which I believe is critical for collaborative environments like SAND Technologies. My aim was to write code that is not just functional, but also understandable and maintainable by others.
+3.  **Architectural Choices:** I used a multi-page HTML structure for inter-page navigation. I integrated JavaScript for specific interactive elements (like BMI calculation and symptom descriptions) within this multi-page structure for targeted functionality enhancement.
+4.  **Code Quality & Readability:** I ensured that I wrote clean, well-organized, and commented code which is critical for collaborative environments. My aim was to write code that is not just functional, but also understandable and maintainable by others.
 5.  **User Experience (UX):** From the intuitive navigation to the clear layout and color scheme, I prioritized creating a user-friendly interface. The distinction between "Myths" and "Facts" with clear color coding was designed to prevent misinformation effectively.
 
-This project allowed me to reinforce my front-end development skills and apply them to a domain with significant social impact, which is a core motivator for me as a software engineer.
+This project allowed me to reinforce my front-end development skills and apply them to a domain with significant social impact, which is a core motivator for me as I aspire to become a software engineer.
 
 ## 6. Outcomes & Impact
 
@@ -77,11 +77,11 @@ MediGuide Africa successfully delivers on its core objectives:
 * **Empowers Health Literacy:** Provides clear, actionable information on critical health topics, helping users understand common diseases and promote preventative measures.
 * **Demonstrates Foundational Software Engineering Skills:** Effectively showcases proficiency in HTML for structure, CSS for styling, and JavaScript for client-side interactivity and data processing.
 * **Highlights Problem-Solving Capability:** The design and implementation directly address the challenge of information accessibility and resource guidance.
-* **Reflects Impact-Oriented Development:** The project’s focus on healthcare aligns with SAND Technologies' mission to create real value and positive change through technology.
+* **Reflects Impact-Oriented Development:** The project’s focus on healthcare awareness and accessibility helps to create real value and positive change through technology.
 
 ## 7. Future Enhancements & Recommendations for Improvement
 
-As a continuous learner, I see several avenues for expanding and improving MediGuide Africa, demonstrating a growth mindset and forward-thinking approach:
+As a continuous learner, I see several avenues for expanding and improving MediGuide Africa:
 
 * **Integration with Real APIs:** Incorporate real public health APIs (e.g., for local clinic data, real-time health statistics, or relevant news) to make the resource directory and information more dynamic.
 * **User Authentication & Personalization:** Allow users to create profiles, track their BMI over time, set health reminders, or receive personalized health tips.
@@ -89,5 +89,5 @@ As a continuous learner, I see several avenues for expanding and improving MediG
 * **Location-Based Services:** Integrate geolocation APIs to provide truly local healthcare resources based on the user's current location.
 * **Search Functionality:** Implement a search bar for diseases or symptoms to quickly find relevant information.
 * **Mobile Responsiveness (Advanced):** While basic responsiveness is included, a more dedicated mobile-first design approach could be adopted for optimal experience on all devices.
-* **Backend Integration:** Introduce a Node.js/Express.js backend (as per my familiarity) for handling user data storage (e.g., historical BMI records), managing dynamic content, or implementing more complex server-side logic.
+* **Backend Integration:** Introduce a Node.js/Express.js backend for handling user data storage (e.g., historical BMI records), managing dynamic content, or implementing more complex server-side logic.
 * **Accessibility Enhancements:** Further optimize for users with disabilities (e.g., screen reader compatibility, keyboard navigation).
