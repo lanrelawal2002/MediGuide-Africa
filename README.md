@@ -11,12 +11,9 @@
 2.  [About the Project](#2-about-the-project)
 3.  [Features](#3-features)
 4.  [Technologies Used](#4-technologies-used)
-5.  [Installation & Usage](#5-installation--usage)
-6.  [My Thought Process & Problem-Solving Approach](#6-my-thought-process--problem-solving-approach)
-7.  [Outcomes & Impact](#7-outcomes--impact)
-8.  [Future Enhancements & Recommendations for Improvement](#8-future-enhancements--recommendations-for-improvement)
-9.  [License](#9-license)
-10. [Contact](#10-contact)
+5.  [My Thought Process & Problem-Solving Approach](#5-my-thought-process--problem-solving-approach)
+6.  [Outcomes & Impact](#6-outcomes--impact)
+7.  [Future Enhancements & Recommendations for Improvement](#7-future-enhancements--recommendations-for-improvement)
 
 ---
 
@@ -57,34 +54,7 @@ This project demonstrates my foundational skills in front-end software engineeri
     * Dynamic display of symptom descriptions.
     * Basic client-side input validation.
 
-## 5. Installation & Usage
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-You only need a modern web browser to view this project.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YourGitHubUsername]/MediGuide-Africa-Software-Engineering-Project.git
-    ```
-    (Replace `[YourGitHubUsername]` with your actual GitHub username.)
-2.  **Navigate into the project directory:**
-    ```bash
-    cd MediGuide-Africa-Software-Engineering-Project
-    ```
-
-### Usage
-
-1.  Open the `index.html` file in your preferred web browser.
-2.  Use the BMI calculator on the landing page by entering height and weight.
-3.  Click on the disease buttons (Malaria, Diabetes, Hypertension) to navigate to their respective information pages.
-4.  On disease pages, click on symptoms to reveal their descriptions.
-
-## 6. My Thought Process & Problem-Solving Approach
+## 5. My Thought Process & Problem-Solving Approach
 
 My approach to building MediGuide Africa was driven by a desire to create a practical, impactful application that aligns with SAND Technologies' emphasis on "meaningful AI" and solving "real business problems."
 
@@ -100,7 +70,7 @@ My approach to building MediGuide Africa was driven by a desire to create a prac
 
 This project allowed me to reinforce my front-end development skills and apply them to a domain with significant social impact, which is a core motivator for me as a software engineer.
 
-## 7. Outcomes & Impact
+## 6. Outcomes & Impact
 
 MediGuide Africa successfully delivers on its core objectives:
 
@@ -109,7 +79,7 @@ MediGuide Africa successfully delivers on its core objectives:
 * **Highlights Problem-Solving Capability:** The design and implementation directly address the challenge of information accessibility and resource guidance.
 * **Reflects Impact-Oriented Development:** The project’s focus on healthcare aligns with SAND Technologies' mission to create real value and positive change through technology.
 
-## 8. Future Enhancements & Recommendations for Improvement
+## 7. Future Enhancements & Recommendations for Improvement
 
 As a continuous learner, I see several avenues for expanding and improving MediGuide Africa, demonstrating a growth mindset and forward-thinking approach:
 
@@ -121,25 +91,3 @@ As a continuous learner, I see several avenues for expanding and improving MediG
 * **Mobile Responsiveness (Advanced):** While basic responsiveness is included, a more dedicated mobile-first design approach could be adopted for optimal experience on all devices.
 * **Backend Integration:** Introduce a Node.js/Express.js backend (as per my familiarity) for handling user data storage (e.g., historical BMI records), managing dynamic content, or implementing more complex server-side logic.
 * **Accessibility Enhancements:** Further optimize for users with disabilities (e.g., screen reader compatibility, keyboard navigation).
-
-## 9. License
-
-This project is licensed under the MIT License. See the `LICENSE` file (if you choose to add one separately) for more details. For a graduate application, simply stating it here is fine.
-
-## 10. Contact
-
-* **Lanre Lawal**
-* Email: [lanrelawal555@gmail.com](mailto:lanrelawal555@gmail.com)
-* LinkedIn: [www.linkedin.com/in/lanrelawal2002](www.linkedin.com/in/lanrelawal2002)
-
----
-
-### Live Demo
-
-[**Placeholder:** Insert your live demo URL here after deployment (e.g., GitHub Pages, Netlify)]
-
-### Video Demo
-
-[**Placeholder:** Insert your 2-minute video demo URL here after uploading to YouTube (or another platform)]
-
----
