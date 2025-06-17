@@ -14,7 +14,12 @@ header {
   color: white; /* White text */
   padding: 20px;
   text-align: center;
-  position: relative; /* For back button */
+  /* Re-adding flexbox for proper alignment of back-home link and title */
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  justify-content: center; /* Center main header text */
+  align-items: center; /* Vertically align items */
+  position: relative; /* For positioning the back-home link */
 }
 
 header h1 {
@@ -25,8 +30,10 @@ header h1 {
   /* Back to home link style */
   color: white;
   text-decoration: none; /* Remove underline */
-  margin-right: auto; /* Push link to the left */
-  font-size: 1.2rem;
+  /* Position the link absolutely within the header */
+  position: absolute;
+  left: 20px; /* Aligned to the left */
+  font-size: 1em; /* Adjusted font size for balance */
 }
 
 .back-home:hover {
@@ -42,6 +49,7 @@ section {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Centering content within specific sections like BMI calculator and disease selection */
 section#bmi-calculator,
 section#disease-selection {
   text-align: center;
@@ -57,8 +65,10 @@ h3 {
 .input-group {
   display: flex;
   flex-direction: column; /* Stack label above input */
-  margin: 0px auto 15px auto;
-  width: 15%;
+  /* Adjusted width to be more reasonable and maintain auto margins for centering */
+  width: 80%; /* Much more reasonable width */
+  max-width: 300px; /* Optional: limit maximum width for very large screens */
+  margin: 0px auto 15px auto; /* Center input group and add bottom margin */
 }
 
 .input-group label {
