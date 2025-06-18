@@ -41,7 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
     bmiResultDiv.classList.remove("hidden"); // Show result
   };
 
-  // --- Symptoms Interactivity Logic (for disease pages) ---
+  // --- Symptoms Interactivity Logic (for disease-info.html pages) ---
+  // This logic runs on any page that has a 'symptoms-list' and 'symptom-description'
   const symptomsList = document.getElementById("symptoms-list"); // Get symptoms list element
   const symptomDescription = document.getElementById("symptom-description"); // Get description display area
 

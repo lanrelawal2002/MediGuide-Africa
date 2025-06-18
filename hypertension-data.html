@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediGuide Africa: Hypertension Data Insights</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="js/hypertension-chart.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="hypertension.html" class="back-home"
+        >Back to Hypertension Options</a
+      >
+      <h1>MediGuide Africa: Hypertension Data Insights</h1>
+      <p>Visualizing key data for better understanding.</p>
+    </header>
+
+    <section id="hypertension-charts">
+      <h2>Hypertension Cases Over Time</h2>
+      <div class="chart-container">
+        <canvas id="hypertensionCasesChart"></canvas>
+      </div>
+
+      <h2>Hypertension Prevalence by Age Group</h2>
+      <div class="chart-container">
+        <canvas id="hypertensionPrevalenceChart"></canvas>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2025 MediGuide Africa - For educational purposes only. Consult a
+        healthcare professional for medical advice.
+      </p>
+    </footer>
+  </body>
+</html>
