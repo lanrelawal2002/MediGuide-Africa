@@ -133,16 +133,3 @@ This project is licensed under the MIT License.
 * **Lanre Lawal**
 * Email: [lanrelawal2002@gmail.com](mailto:lanrelawal2002@gmail.com)
 * LinkedIn: [www.linkedin.com/in/lanrelawal2002](http://www.linkedin.com/in/lanrelawal2002)
-
----
-
-### Live Demo
-
-[**Placeholder:** Insert your live demo URL here after deployment (e.g., GitHub Pages, Netlify)]
-
-### Video Demo
-
-[**Placeholder:** Insert your 2-minute video demo URL here after uploading to YouTube (or another public platform)]
-
----
-
