@@ -67,12 +67,12 @@ You only need a modern web browser (e.g., Chrome, Firefox, Edge) to view and int
 
 1.  **Clone the repository:** Open your terminal or command prompt and run:
     ```bash
-    git clone [https://github.com/](https://github.com/)[YourGitHubUsername]/MediGuide-Africa-Software-Engineering-Project.git
+    git clone https://github.com/lanrelawal2002/MediGuide-Africa.git
     ```
-    (Remember to replace `[YourGitHubUsername]` with your actual GitHub username.)
+   
 2.  **Navigate into the project directory:**
     ```bash
-    cd MediGuide-Africa-Software-Engineering-Project
+    cd MediGuide-Africa
     ```
 
 ### Usage
