@@ -42,7 +42,7 @@ This project demonstrates my foundational skills in front-end software engineeri
     * Each disease (`malaria.html`, `diabetes.html`, `hypertension.html`) now serves as an **options hub**, offering three distinct paths:
         * **Detailed Information (`[disease]-info.html`):** Provides comprehensive textual content on the disease, including causes, prevention, management, and an **interactive symptom list** where clicking on a symptom reveals a brief description.
         * **Data Insights (`[disease]-data.html`):** Presents key epidemiological data related to the disease through **interactive charts powered by Chart.js**. This demonstrates the ability to process and visualize static health data effectively.
-        * **Local Resources (`[disease]-resources.html`):** Features an **expanded simulated directory of local healthcare centers** offering support, now including prominent African cities where SAND Technologies has a presence (e.g., Abuja, Lagos, Nairobi, Accra, Cape Town).
+        * **Local Resources (`[disease]-resources.html`):** Features an **expanded simulated directory of local healthcare centers** offering support, now including prominent African cities where SAND Technologies has a presence (e.g., Lagos, Nairobi, Accra, Cape Town).
 * **Intuitive Navigation:** Clear 'Back to Options' and 'Back to Home' links ensure a seamless user experience across all pages.
 * **Clean and Responsive UI:** Designed with CSS to be visually appealing and accessible across different screen sizes.
 
@@ -104,7 +104,7 @@ This project allowed me to reinforce and expand my **front-end development skill
 
 ## 7. Outcomes & Impact
 
-**MediGuide Africa** successfully delivers on its core objectives, demonstrating key skills aligned with the **Software Engineering Graduate Trainee** role at SAND Technologies:
+**MediGuide Africa** successfully delivers on its core objectives, demonstrating key skills aligned with the **Software Engineering Graduate** role at SAND Technologies:
 
 * **Empowers Health Literacy:** Provides clear, actionable information on critical health topics and combats misinformation, directly contributing to community well-being.
 * **Demonstrates Advanced Data Handling & Visualization:** Effectively showcases the ability to process, organize, and visually represent static health data using Chart.js, transforming numbers into insightful trends and comparisons.
